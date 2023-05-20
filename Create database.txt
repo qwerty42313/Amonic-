@@ -1,0 +1,47 @@
+Вводим весь код по порядку в консольной версии mysql(mysql.Cell - без разницы какой версии главное знать пароль);
+
+Создаю бд:
+create database DataAnomic;
+
+Подключаюсь к ней:
+use DataAnomic;
+
+Создаю таблицу UserData:
+CREATE TABLE UserData( 
+id INT NOT NULL AUTO_INCREMENT,
+role VARCHAR(30), 
+email VARCHAR(50),
+password VARCHAR(50), 
+firstname VARCHAR(30),
+lastname VARCHAR(30), 
+office VARCHAR(30),
+birthdate date, 
+state boolean,
+active datetime,
+lastactive datetime, 
+PRIMARY KEY(id));
+
+Заношу туда данные 1 адин, и 1 юзер:
+insert into UserData(role, email, password, firstname, lastname, office, birthdate, state, active, lastactive) values ('Admin', 'j.doe@amonic.com', '123', 'John', 'Doe', 'Abu dhabi', '1983-01-13', 1, null, null);
+insert into UserData(role, email, password, firstname, lastname, office, birthdate, state, active, lastactive) values ('User', 'k.omar@amonic.com', '4258', 'Karim', 'Omar', 'Abu dhabi', '1980-03-19', 1, null, null);
+
+Создаю таблицу с информацией о рейсах:
+CREATE TABLE Schedules( 
+id INT NOT NULL AUTO_INCREMENT, 
+date date, 
+time time, 
+aircraft VARCHAR(30), 
+flight_number VARCHAR(30), 
+from_ VARCHAR(30), 
+to_ VARCHAR(30),
+price int, 
+business_price int, 
+first_class_price int,
+state boolean, 
+PRIMARY KEY(id));
+
+Заношу туда данные об 1 рейсе:
+insert into Schedules(date,time,aircraft,from_to,flight_number,price,business_price,first_class_price) values ('11.10.2017', '08:45', '320', 'IKA - AUH', '1908',370,499,573);
+
+
+

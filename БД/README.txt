@@ -1,0 +1,1 @@
+C:\ProgramData\MySQL\MySQL Server[версия субд]\data\    <- сюда закидывать папку dataamonic
