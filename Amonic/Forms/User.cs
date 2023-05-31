@@ -12,7 +12,7 @@ namespace Amonic
         MySqlConnection connection; int kod; int point;
         public User()
         {
-            connection = new MySqlConnection("Server=localhost;database=DataAmonic;uid=root;pwd=2003955eeeE_;");
+            connection = new MySqlConnection("Server=localhost;database=DataAmonic;uid=root;pwd=2003955eee;");
             InitializeComponent();
             getInfo(); GetReice();
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
@@ -60,7 +60,7 @@ namespace Amonic
         private void getInfo()
         {
             MySqlDataAdapter da = new MySqlDataAdapter("select id, Date, Time, From_, To_, Flight_Number, Aircraft, price, Business_price, First_class_price from Schedules", connection);
-            DataSet ds = new DataSet();
+            DataSet ds = new DataSet(); 
             da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];                                            // вывожу данные в датагридвью
         }

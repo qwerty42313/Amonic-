@@ -98,11 +98,11 @@
     <Compile Include="Forms\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Change Role.cs">
+    <Compile Include="Forms\ChangeRole.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Change Role.Designer.cs">
-      <DependentUpon>Change Role.cs</DependentUpon>
+    <Compile Include="Forms\ChangeRole.Designer.cs">
+      <DependentUpon>ChangeRole.cs</DependentUpon>
     </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="Forms\EditFlight.cs">
@@ -131,8 +131,8 @@
     <EmbeddedResource Include="Forms\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Change Role.resx">
-      <DependentUpon>Change Role.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ChangeRole.resx">
+      <DependentUpon>ChangeRole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\EditFlight.resx">
       <DependentUpon>EditFlight.cs</DependentUpon>

@@ -124,3 +124,45 @@ C:\Users\ilovw\OneDrive\Рабочий стол\Amonic-main\Amonic\obj\Debug\Amo
 C:\Users\ilovw\OneDrive\Рабочий стол\Amonic-main\Amonic\obj\Debug\Amonic.csproj.CopyComplete
 C:\Users\ilovw\OneDrive\Рабочий стол\Amonic-main\Amonic\obj\Debug\Amonic.exe
 C:\Users\ilovw\OneDrive\Рабочий стол\Amonic-main\Amonic\obj\Debug\Amonic.pdb
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Amonic.exe.config
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Amonic.exe
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Amonic.pdb
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.IO.Pipelines.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Google.Protobuf.pdb
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\Google.Protobuf.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.IO.Pipelines.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.AddUser.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.Admin.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.Change_Role.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.EditFlight.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.Login.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.Properties.Resources.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.User.resources
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.csproj.CopyComplete
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.exe
+C:\Users\User\Desktop\Amonic--main\Amonic\obj\Debug\Amonic.pdb

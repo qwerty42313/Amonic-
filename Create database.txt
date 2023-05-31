@@ -1,10 +1,16 @@
 Вводим весь код по порядку в консольной версии mysql(mysql.Cell - без разницы какой версии главное знать пароль);
 
+
+
 Создаю бд:
 create database DataAnomic;
 
+
+
 Подключаюсь к ней:
 use DataAnomic;
+
+
 
 Создаю таблицу UserData:
 CREATE TABLE UserData( 
@@ -21,9 +27,15 @@ active datetime,
 lastactive datetime, 
 PRIMARY KEY(id));
 
-Заношу туда данные 1 адин, и 1 юзер:
+
+
+Заношу туда данные 1 админ, и 1 юзер:
+
 insert into UserData(role, email, password, firstname, lastname, office, birthdate, state, active, lastactive) values ('Admin', 'j.doe@amonic.com', '123', 'John', 'Doe', 'Abu dhabi', '1983-01-13', 1, null, null);
+
 insert into UserData(role, email, password, firstname, lastname, office, birthdate, state, active, lastactive) values ('User', 'k.omar@amonic.com', '4258', 'Karim', 'Omar', 'Abu dhabi', '1980-03-19', 1, null, null);
+
+
 
 Создаю таблицу с информацией о рейсах:
 CREATE TABLE Schedules( 
@@ -40,8 +52,13 @@ first_class_price int,
 state boolean, 
 PRIMARY KEY(id));
 
+
+
 Заношу туда данные об 1 рейсе:
-insert into Schedules(date,time,aircraft,from_to,flight_number,price,business_price,first_class_price) values ('11.10.2017', '08:45', '320', 'IKA - AUH', '1908',370,499,573);
+insert into Schedules(date,time,aircraft,from_,to_,flight_number,price,business_price,first_class_price) values ('11.10.2017', '08:45', '320', 'IKA', 'AUH', '1908',370,499,573);
 
 
 
+
+
+пароль у mysql должен быть 2003955eeeE_

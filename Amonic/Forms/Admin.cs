@@ -13,7 +13,7 @@ namespace Amonic
         private int kod;
         public Admin()
         {
-            string sql = "Server=localhost;database=DataAmonic;uid=root;pwd=2003955eeeE_;";   // строка подключения к бд
+            string sql = "Server=localhost;database=DataAmonic;uid=root;pwd=2003955eee;";   // строка подключения к бд
             connection = new MySqlConnection(sql);
             InitializeComponent();  
             GetInfo(); GetOffice();                                                         // вызывает 2 метода 1 из которых загружает данные из базы в датагридвью(таблицу) и 2й фильтрует оффисы что бы не было повторов 
@@ -113,7 +113,7 @@ namespace Amonic
             GetInfo();
         }
 
-        private void comboBox1_TextChanged(object sender, EventArgs e)                      //   отслеживаю изменения в выборекомбобокс
+        private void comboBox1_TextChanged(object sender, EventArgs e)                      //   отслеживаю изменения в выборе комбобокс
         {
             MySqlDataAdapter da = new MySqlDataAdapter($"select id, firstname, lastname, role, email, office, active, lastactive from UserData where office='{comboBox1.Text}'", connection);
             if(comboBox1.Text == "AllOffice")

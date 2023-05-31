@@ -15,7 +15,7 @@ namespace Amonic
         private static MySqlCommand command;
         public Login()
         {
-            string sql = "Server=localhost;database=DataAmonic;uid=root;pwd=2003955eeeE_;";    // срока подключения к базе
+            string sql = "Server=localhost;database=DataAmonic;uid=root;pwd=2003955eee;";    // срока подключения к базе
             connect = new MySqlConnection(sql);
             InitializeComponent();
             Application.ApplicationExit += new EventHandler(this.OnApplicationExit);         // метод вызывается когда приложения закрывается
@@ -61,7 +61,7 @@ namespace Amonic
         {
             try
             {
-               Data.GetData(idStatic, 1);                                                   // вызываю метода для записи в бд когда я вышел из приложения
+               Data.GetData(idStatic, 1);                                                   // вызываю метода для записи в бд когда пользователь вышел из приложения
             }
             catch
             {
